@@ -67,7 +67,7 @@
             </div>
       </div>
 
-      <div id="current" onclick="window.location.href='#current';" class="scroll-down"></div>
+      <div id="current" onclick="scrollSmoothTo('current')" class="scroll-down"></div>
 
 
       <!--Projects-->
@@ -186,7 +186,13 @@
 
     new WOW().init();
 
-
+function scrollSmoothTo(elementId) {
+  var element = document.getElementById(elementId);
+  element.scrollIntoView({
+    block: 'start',
+    behavior: 'smooth'
+  });
+}
     </script>
 </body>
 </html>
