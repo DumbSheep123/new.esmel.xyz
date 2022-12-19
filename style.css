@@ -1,5 +1,5 @@
-/*Basic*/
-html, body {
+html,
+body {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -16,16 +16,18 @@ html, body {
     width: 100%;
     height: 100px;
 }
+
 .whitespacesmaller {
     width: 100%;
     height: 50px;
 }
+
 @media(max-width: 768px) {
     .whitespace {
-          display: none;
+        display: none;
     }
 }
-/*Navigation*/
+
 nav {
     width: 100%;
     background: #0f0f0f;
@@ -156,44 +158,43 @@ nav #menu li a:hover {
 
 @media(max-width: 768px) {
     #toggle {
-          visibility: visible;
-          opacity: 1;
-          margin-top: 6px;
-          margin-right: 4px;
+        visibility: visible;
+        opacity: 1;
+        margin-top: 6px;
+        margin-right: 4px;
     }
 
     nav #brand {
-          margin-left: 24px;
+        margin-left: 24px;
     }
 
     #menu a {
-          font-size: 20px;
-          font-weight: 300;
+        font-size: 20px;
+        font-weight: 300;
     }
 
     #resize li span {
-          font-weight: bolder;
+        font-weight: bolder;
     }
 
     nav #menu {
-          display: none;
+        display: none;
     }
 }
 
 @media(min-width: 768px) {
     #resize {
-          visibility: hidden !important;
+        visibility: hidden !important;
     }
 }
 
-/*Hero*/
 
 .hero {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .hero h1 {
@@ -212,7 +213,6 @@ nav #menu li a:hover {
     }
 }
 
-/*Scroll down animation*/
 .scroll-down {
     position: absolute;
     left: 50%;
@@ -234,24 +234,26 @@ nav #menu li a:hover {
 
 @keyframes fade_move_down {
     0% {
-          transform: translate(0, -20px) rotate(45deg);
-          opacity: 0;
+        transform: translate(0, -20px) rotate(45deg);
+        opacity: 0;
     }
+
     50% {
-          opacity: 1;
+        opacity: 1;
     }
+
     100% {
-          transform: translate(0, 20px) rotate(45deg);
-          opacity: 0;
+        transform: translate(0, 20px) rotate(45deg);
+        opacity: 0;
     }
 }
 
-/*Typewriter animation*/
+
 .exec {
     display: inline-block;
-    text-align:center;
-  }
-  
+    text-align: center;
+}
+
 .animation {
     display: inline-block;
     overflow: hidden;
@@ -261,28 +263,31 @@ nav #menu li a:hover {
     font-weight: lighter;
     margin: 0 auto;
     animation: typing 2s steps(25, end), cursor 0.5s step-end infinite;
-  }
-  
+}
+
 @keyframes typing {
     from {
-      width: 0
+        width: 0
     }
+
     to {
-      width: 100%
-    }
-  }
-  
-@keyframes cursor {
-    from,
-    to {
-          border-color: transparent;
-    }
-    50% {
-          border-color: grey;
+        width: 100%
     }
 }
 
-/*Project section*/
+@keyframes cursor {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: grey;
+    }
+}
+
+
 h6 {
     text-align: center;
 }
@@ -294,6 +299,7 @@ h6 {
     position: absolute;
     left: 50%;
 }
+
 #project {
     display: flex;
     justify-content: center;
@@ -301,17 +307,19 @@ h6 {
     flex-direction: column;
     margin: 50px 0px;
 }
+
 .project-heading {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
+
 .project-heading h3 {
     width: 24em;
     font-weight: lighter;
     top: 50%;
     margin: auto;
-    
+
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -319,7 +327,6 @@ h6 {
 
 }
 
-/*Footer*/
 .collab {
     text-align: right;
 }
@@ -350,13 +357,15 @@ h6 {
     font-size: 18px;
     padding-left: 20px;
 }
+
 .info a {
     font-weight: lighter;
     color: #fff;
     font-size: 18px;
-    
+
 }
-.info a:hover{
+
+.info a:hover {
     text-decoration: none;
 }
 
@@ -403,7 +412,8 @@ h6 {
     background: #7289da;
 }
 
-#media, #address {
+#media,
+#address {
     text-align: right;
 }
 
@@ -416,27 +426,16 @@ h6 {
 }
 
 @media(max-width: 768px) {
-    .collab, #personal, #media, #address {
-          text-align: center;
+
+    .collab,
+    #personal,
+    #media,
+    #address {
+        text-align: center;
     }
 
     .info ul {
-          margin: 0 0 0 -22px;
-          padding: 0;
+        margin: 0 0 0 -22px;
+        padding: 0;
     }
-}
-
-
-/*about page*/
-.about {
-    height: 500px;
-    margin-top: 120px;
-}
-
-.image {
-    background: url(aboutpic.png) no-repeat 50% 70%;
-}
-
-.wrapper {
-    overflow: hidden;
 }
