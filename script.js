@@ -1,12 +1,7 @@
-$("body").keypress(function (e) {
-    var code = e.keyCode ? e.keyCode : e.which;
-    if (code.toString() == 27) {
-       redir()
-        return false;
-    }
-});
+window.onblur = function() {
+    document.title = "Please come back! - esmel.xyz"
+}
 
-
-function redir() {
- window.location = "/Search.aspx";
+window.onfocus = function() {
+    document.title = "Esm&eacute;l"
 }
