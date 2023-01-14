@@ -1,9 +1,9 @@
 window.onblur = function() {
-    document.title = "Please come back! - esmel.xyz"
+    document.title = "Please come back! - esmél.xyz"
 }
 
 window.onfocus = function() {
-    document.title = "Esm&eacute;l"
+    document.title = "Esmél"
 }
 
 window.onload = function () {
