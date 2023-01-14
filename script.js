@@ -3,5 +3,16 @@ window.onblur = function() {
 }
 
 window.onfocus = function() {
-    document.title = "Esm&eacute;l"
+    document.title = "Esmél"
 }
+
+function cancel() {
+    document.getElementById("privacy").style.display = "none";
+    document.getElementById("maincontent").style.display = "block";
+    window.open('', '_blank');
+  }
+  
+  function accept() {
+    document.getElementById("privacy").style.display = "none";
+    document.getElementById("maincontent").style.display = "block";
+  }
