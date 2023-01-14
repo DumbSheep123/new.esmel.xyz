@@ -10,7 +10,14 @@ body {
     color: #fff !important;
 }
 
+*::-webkit-scrollbar {
+    display: none;
+}
 
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
 
 .whitespace {
     width: 100%;
