@@ -226,6 +226,7 @@ nav #menu li a:hover {
     bottom: 100px;
     display: block;
     text-align: center;
+    cursor: pointer;
     font-size: 20px;
     z-index: 0;
     text-decoration: none;
