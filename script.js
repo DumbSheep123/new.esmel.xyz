@@ -11,7 +11,7 @@ window.onload = function () {
     } else {
         alert('Welcome to the reimagined esmel.xyz. In this version, mobile optimisation will be paramount. In addition, I have implemented new security features described in greater detail in the next message.');
         alert('I take the security and protection of my visitors data very seriously. To accomplish this, I have implemented a number of security measures to ensure that your visit is secure at all times. Some of these measures include:\n\n• SSL/TLS encryption\n\n• HSTS encryption\n\n• Regular security updates\n\nNo system is invulnerable to cyber attacks, however, I do my best to mitigate against it. I encourage you to take precautions to protect your personal information such as using a VPN or proxy.');
-        setCookie("alert-preference", "true", 30);
+        setCookie("alert-preference", "true", 7);
     }
 }
 
