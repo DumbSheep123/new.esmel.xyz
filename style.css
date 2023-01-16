@@ -270,7 +270,8 @@ nav #menu li a:hover {
     white-space: nowrap;
     font-weight: lighter;
     margin: 0 auto;
-    animation: typing 2s steps(25, end), cursor 0.5s step-end infinite;
+    animation: typing 1.5s steps(25, end), cursor 0.5s step-end infinite;
+    /* originally 2 */
 }
 
 @keyframes typing {
