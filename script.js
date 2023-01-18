@@ -3,7 +3,7 @@ window.onblur = function() {
 }
 
 window.onfocus = function() {
-    document.title = "Esmél"
+    document.title = "Esmél - Official Home"
 }
 
 window.onload = function () {
