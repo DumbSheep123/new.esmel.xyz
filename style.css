@@ -303,6 +303,14 @@ h6 {
     text-align: center;
 }
 
+.bluedot {
+    color: #86c5da, !important;
+}
+
+.yellowdot {
+    color: yellow, !important;
+}
+
 .vertical {
     margin-top: 40px;
     border-left: 1px solid #fff;
