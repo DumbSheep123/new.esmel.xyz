@@ -1,10 +1,14 @@
 window.onblur = function() {
-    document.title = "Please come back :/"
+    document.title = "Bye for now!"
 }
 
 window.onfocus = function() {
-    document.title = "Esmél - Official Home"
+    document.title = "Welcome back! - esmél.xyz";
+    setTimeout(function() {
+        document.title = "Esmél - Official Home";
+    }, 2000);
 }
+
 
 window.onload = function () {
     if (getCookie("alert-preference") === "true") {
