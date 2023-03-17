@@ -1,5 +1,5 @@
 window.onblur = function() {
-    document.title = "Please come back! - esmél.xyz"
+    document.title = "Please come back :/"
 }
 
 window.onfocus = function() {
