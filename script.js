@@ -1,10 +1,10 @@
-window.onblur = function() {
+window.onblur = function () {
     document.title = "Bye for now!"
 }
 
-window.onfocus = function() {
+window.onfocus = function () {
     document.title = "Welcome back! - madebyesmél.com";
-    setTimeout(function() {
+    setTimeout(function () {
         document.title = "Esmél - Official Home";
     }, 2000);
 }
@@ -14,7 +14,7 @@ window.onload = function () {
     if (getCookie("alert-preference") === "true") {
     } else {
         alert('Welcome to the reimagined madebyesmel.com. In this version, mobile optimisation will be paramount. In addition, I have implemented new security features described in greater detail in the next message.');
-        alert('I take the security and protection of my visitors data very seriously. To accomplish this, I have implemented a number of security measures to ensure that your visit is secure at all times. Some of these measures include:\n\n• SSL/TLS encryption\n\n• HSTS encryption\n\n• Regular security updates\n\nNo system is invulnerable to cyber attacks, however, I do my best to mitigate against it. I encourage you to take precautions to protect your personal information such as using a VPN or proxy.');
+        alert('I take the security and protection of my visitors data very seriously. To accomplish this, I have implemented a number of security measures to ensure that your visit is secure at all times. Some of these measures include:\n\n• SSL/TLS encryption\n\n• HSTS enforcement\n\n• Regular security updates\n\nNo system is invulnerable to cyber attacks, however, I do my best to mitigate against it. I encourage you to take precautions to protect your personal information such as using a VPN or proxy.');
         // alert('I value your online privacy, that\'s why I am in the process of eliminating every instance that can track you throughout the web on my website. Yikes! A privacy policy will be implemented soon regarding your data use on my website(s)')
         setCookie("alert-preference", "true", 7);
     }
